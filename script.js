@@ -21,7 +21,13 @@ function display() {
         });
         checker.addEventListener('change', () => {
             let checker_value = checker.checked;
-                task.checker=checker_value;
+            task.checker = checker_value;
+            if (checker_value) {
+                task_text.style.color = '#5f5f5fff';
+            }
+            else {
+                task_text.style.color= '#ffff';
+            }
         })
         list_item.append(checker, task_text, delete_btn);
         task_list.append(list_item);
