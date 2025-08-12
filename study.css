@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+    min-width: 500px;
+    min-height: 500px;
+    border-radius:50px ;
+    border: 0.5px solid white;
+    padding: 20px;
+}
+.card-title{
+   text-align: center;
+   font-family:  'Dancing Script', cursive;
+}
+
+.new_task{
+    background-color: transparent;
+}
+input {
+color: white;
+  background-color: transparent;
+  border: 2px solid #ccc; 
+  padding: 10px;
+  border-radius: 6px;
+}
+.btn_big{
+    padding: 10px 20px;
+}
+.input_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.warning_text{
+    color: red;
+    font-size: 10px;
+}
